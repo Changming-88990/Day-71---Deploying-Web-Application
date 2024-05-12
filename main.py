@@ -12,7 +12,7 @@ from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 import os
-_ = load_dotenv(find_dotenv('env'))
+
 # Optional: add contact me email functionality (Day 60)
 # import smtplib
 
