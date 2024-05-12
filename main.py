@@ -11,7 +11,6 @@ from sqlalchemy import Integer, String, Text
 from functools import wraps
 from werkzeug.security import generate_password_hash, check_password_hash
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
-from dotenv import load_dotenv, find_dotenv
 import os
 _ = load_dotenv(find_dotenv('env'))
 # Optional: add contact me email functionality (Day 60)
